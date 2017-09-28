@@ -1,0 +1,28 @@
+.cards-container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+img {
+  width: 20vw;
+  height: 40vh;
+  max-width: 100%;
+  height: auto;
+  display: none;
+
+}
+
+figure {
+  margin: 12px;
+  width: 200px;
+  height: 200px;
+  background:lightblue;
+}
+
+.show img {
+  display: block;
+}
+
+.invisible  {
+  visibility: hidden;
+}
